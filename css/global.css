@@ -331,3 +331,61 @@ a {
   top: 1250px;
   left: 300px;
 }
+
+.section-2 .container-2 {
+  background-color: #292f33;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.section-2 .container-2 .left {
+  width: 60%;
+  height: 85vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url(../images/pic-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../images/pic-4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.section-2 .container-2 .right {
+  width: 20%;
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 800px;
+}
+
+.section-2 .container-2 .videogames, .section-2 .container-2 .brain, .section-2 .container-2 .stress {
+  width: 800px;
+  height: 250px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  -webkit-box-shadow: -1px 2px 14px -2px #000000;
+  box-shadow: -1px 2px 14px -2px #000000;
+}
+
+.section-2 .container-2 .videogames h2, .section-2 .container-2 .brain h2, .section-2 .container-2 .stress h2 {
+  font-size: 45px;
+  font-weight: 700;
+  padding: 25px 50px 20px;
+  font-family: Ubuntu, sans-serif;
+}
+
+.section-2 .container-2 .videogames p, .section-2 .container-2 .brain p, .section-2 .container-2 .stress p {
+  padding: 25px 50px 20px;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: Ubuntu, sans-serif;
+}
