@@ -60,6 +60,7 @@
 
 
 .section-1{
+
     .container-1{
         max-width: $container-size-lg;
         width: 100%;
@@ -182,7 +183,7 @@
 
 
 
-        }
+    }
 
         .circle-2{
             width: 200px;
@@ -202,7 +203,9 @@
     
  
 
- }
+}
+
+    
 
  .section-2{
     .container-2{
@@ -261,6 +264,342 @@
     }
 
  }
+
+
+ .section-3{
+     .container-3{
+        max-width: $container-size-lg;
+        width: 100%;
+        height: 1100px;
+        margin: 0 auto;
+        position: relative;
+
+        .bluebox{
+            width: 1300px;
+            height: 520px;
+            background-color: $button-color-01;
+            position: absolute;
+            top: 300px;
+            right: 0px;
+            z-index: -1;
+        }
+
+        .textbox-2{
+            width: 550px;
+            height: 465px;
+            background-color: $white;
+            -webkit-box-shadow: -1px 2px 14px -2px #000000; 
+            box-shadow: -1px 2px 14px -2px #000000;
+            padding: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 31px;
+            padding-left: 50px;
+            padding-right: 40px;
+            position: absolute;
+            top: 530px;
+            right: 700px;
+            z-index: 3;
+
+           
+        }
+
+        img{
+            margin-top: 50px;
+            width: 1050px;
+            height: 650px;
+            z-index: 2;
+        }
+
+        h2{
+            font-size: 50px;
+            font-weight: 500;
+            font-family: $main-font;
+            margin-top: 30px;
+        }
+
+        p{
+            font-size: 27px;
+            line-height: 1.6;
+            font-weight: 300;
+            font-family: $main-font;
+            font-style: italic;
+
+        }
+
+        .blueBtn{
+            
+            width: 220px;
+            height: 60px;
+            border-style: solid;
+            font-weight: 700;
+            padding: 15px 50px;
+            margin: 40px 0px;
+            background-color: $button-color-01;
+            color: $white;
+            border-color: $white;
+            transition: 0.3s ease;
+            font-size: 18px;
+            cursor: pointer;
+            white-space: nowrap;
+
+        }
+
+        .blueBtn:hover{
+            background-color: #292f33;
+            color: $white;
+        }
+     }
+
+}    
+
+
+.section-4{
+    .container-4{
+        width: 100%;
+        height: 85vh;
+        background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),url(../images/pic-6.jpeg);
+        background-size: cover;
+        background-position: center;
+
+
+        h2{
+            font-size: 80px;
+            color: $white;
+            font-weight: 900;
+            font-family: $main-font;
+            margin-left: 400px;
+            padding-top: 130px;
+        }
+
+        .viewallBtn{
+        border-style: solid;
+        font-weight: 700;
+        padding: 15px 65px;
+        margin-top: 75px;
+        margin-left: 400px;
+        background-color: transparent;
+        color: $white;
+        border-color: $white;
+        transition: 0.3s ease;
+        border-width: 3px;
+        font-size: 18px;
+        }
+
+
+        .viewallBtn:hover{
+            background-color: $white;
+            color: $paragraph-color-01;
+        }
+       
+
+    }
+   
+
+}
+
+
+.section-5{
+    .container-5{
+        max-width: $container-size-lg;
+        width: 100%;
+        height: 1350px;
+        margin: 0 auto;
+        position: relative;
+
+
+        .stack{
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        
+        h2{
+            font-size: 50px;
+            font-weight: 500;
+            font-family: $main-font;
+
+        }
+
+        p{
+            font-size: 25px;
+            font-weight: 300;
+            font-family: $main-font;
+            margin-top: 40px;
+            line-height: 1.6;
+
+        }
+
+        .readmoreBtn{
+            width: 220px;
+            height: 60px;
+            border-style: solid;
+            font-weight: 700;
+            padding: 15px 50px;
+            margin: 40px 0px;
+            background-color: $button-color-01;
+            color: $white;
+            border-color: $white;
+            transition: 0.3s ease;
+            font-size: 18px;
+            cursor: pointer;
+            white-space: nowrap;
+            font-family: $main-font;
+            
+            
+        }
+        .readmoreBtn:hover{
+            background-color: #292f33;
+            color: $white;
+        }
+
+        .img-6{
+            width: 35vh;
+            height: 35vh;
+            border-radius: 50%;
+            background-size: cover;
+            position: absolute;
+            top: 385px;
+            right: 900px;
+        }
+
+        .img-7{
+            width: 60vh;
+            height: 60vh;
+            border-radius: 50%;
+            background-size: cover;
+            position: absolute;
+            top: 450px;
+            left: 40px;
+
+        }
+
+        .img-8{
+            width: 35vh;
+            height: 35vh;
+            border-radius: 50%;
+            background-size: cover;
+            position: absolute;
+            top: 310px;
+            left: 810px;
+
+        }
+
+        .circle-3{
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background-color: $button-color-01;
+            position: absolute; 
+            top: 700px;
+            right: 350px;
+        }
+
+        .circle-4{
+            width: 200px;
+            height: 200px;
+            background-color: $white;
+            border-radius: 50%;
+            border-width: 35px;
+            border-style: solid;
+            border-color: #e5bb8d;
+            position: absolute;
+            top: 1000px;
+            left: 850px; 
+        }
+
+    }
+
+}
+
+.section-6{
+    .container-6{
+      height: 1000px;
+      width: 100%;
+      background-color: #292f33;
+      position: relative;
+        
+
+
+        .textbox-3{
+            width: 585px;
+            height: 555px;
+            background-color: $white;
+            -webkit-box-shadow: -1px 2px 14px -2px #000000; 
+            box-shadow: -1px 2px 14px -2px #000000;
+            padding: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-left: 50px;
+            padding-right: 40px;
+            position: absolute;
+            top: 85px;
+            left: 350px;
+            z-index: 3;
+            
+        }
+
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+            font-family: $main-font;
+            padding-top: 30px;
+
+        }
+
+        p{
+            font-size: 26px;
+            font-weight: 100;
+            line-height: 2.0;
+            font-family: $main-font;
+        }
+
+        .contactusBtn{
+            width: 220px;
+            height: 60px;
+            border-style: solid;
+            font-weight: 700;
+            padding: 15px 50px;
+            margin: 20px 0px;
+            background-color: $white;
+            color: $paragraph-color-01;
+            border-color: $paragraph-color-01;
+            transition: 0.3s ease;
+            font-size: 18px;
+            cursor: pointer;
+            white-space: nowrap;
+            font-family: $main-font;
+        }
+
+        .contactusBtn:hover{
+            background-color: #000000;
+            color: $white;
+        }
+
+        img{
+            width: 925px;
+            height: 600px;
+            position: absolute;
+            top: 325px;
+            right: 555px;
+            z-index: 2;
+        }
+
+        .orangeline{
+            width: 450px;
+            height: 1000px;
+            background-color: #e5bb8d;
+            position: absolute;
+            top: 0px;
+            right: 800px;
+            z-index: 1;
+        }
+    }
+}
+
+ 
 
 
      
