@@ -1,3 +1,8 @@
+
+body{
+    min-height: 80%;
+}
+
 .banner{
     width: 100%;
     height: 100vh;
@@ -19,7 +24,7 @@
         margin: 50px 15px;
         
         transition: 0.3s ease;
-        font-size: 25px;
+        font-size: 20px;
     }
      .navbar ul li a{
         color: $white;
@@ -33,20 +38,20 @@
      .title{
         padding-top: 300px;
         color: $white;
-        font-size: 120px;
+        font-size: 110px;
     }
 
      .learnmoreBtn{
         border-style: solid;
         font-weight: 700;
-        padding: 20px 90px;
+        padding: 15px 65px;
         margin-top: 40px;
         background-color: transparent;
         color: $white;
         border-color: $white;
         transition: 0.3s ease;
         border-width: 3px;
-        font-size: 18px;
+        font-size: 15px;
         
     }
 
@@ -65,28 +70,28 @@
         max-width: $container-size-lg;
         width: 100%;
         margin: 0 auto;
-        height: 1550px;
+        height: 1400px;
         position: relative;
 
      
 
 
          .Vgames{
-            font-size: 70px;
+            font-size: 60px;
             color:rgb(17, 17, 17);
             font-family: $main-font;
-            top: 200px;
-            left: 400px;
+            top: 235px;
+            left: 300px;
             position: absolute;
             white-space: nowrap; 
    
           .span1{
                font-weight: 700;
                font-family: $main-font;
-               font-size: 80px;
+               font-size: 70px;
             }
             .span2{
-                margin-left: 315px;
+                margin-left: 280px;
             }
 
             .v-text{
@@ -95,18 +100,18 @@
      }
 
          .circle-1{
-            width: 260px;
-            height: 260px;
+            width: 220px;
+            height: 220px;
             border-radius: 50%;
             background-color: $button-color-01;
             position: absolute; 
-            top: 120px;
+            top: 165px;
             right: 1000px;
         }
 
         .pic-2{
-            width: 700px;
-            height: 700px;
+            width: 600px;
+            height: 600px;
             border-radius: 50%;
             border-width: 10px;
             border-color: black;
@@ -115,24 +120,24 @@
         }
 
         .pic-3{
-            width: 400px;
-            height: 400px;
+            width: 350px;
+            height: 350px;
             border-radius: 50%;
             border-width: 18px; 
             background-size: 10px;
             border-color: white;
             border-style: solid;
             position: absolute; 
-            top: 830px;
+            top: 810px;
             right: 865px;
             background-color: $white;
             
         }
 
         .textbox{
-            max-width: 630px;
+            max-width: 525px;
             width: 100%;
-            height: 650px;
+            height: 500px;
             background-color: #f2f2f2 ;
             padding: 0 auto;
             display: flex;
@@ -142,13 +147,13 @@
             padding-left: 40px;
             padding-right: 40px;
             position: absolute; 
-            top: 600px;
-            left: 600px;
+            top: 550px;
+            left: 485px;
                 
    
            
         p{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
         line-height: 1.6;
         
@@ -156,23 +161,23 @@
         }    
 
        & > h2{
-            font-size: 40px;
-            font-weight: 500;
-            margin-top: 60px;
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 25px;
            
         }
         .button-2{
-            width: 220px;
-            height: 60px;
+            width: 185px;
+            height: 50px;
             border-style: solid;
             font-weight: 700;
-            padding: 15px 50px;
-            margin: 40px 0px;
+            padding: 15px 30px;
+            margin: 30px 0px;
             background-color: $button-color-01;
             color: $white;
             border-color: $white;
             transition: 0.3s ease;
-            font-size: 18px;
+            font-size: 15px;
             cursor: pointer;
             white-space: nowrap;
         }
@@ -186,15 +191,15 @@
     }
 
         .circle-2{
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             background-color: $white;
             border-radius: 50%;
-            border-width: 35px;
+            border-width: 30px;
             border-style: solid;
             border-color: #e5bb8d;
             position: absolute;
-            top: 1250px;
+            top: 1155px;
             left: 300px; 
         }
         
@@ -229,13 +234,13 @@
             width: 20%;
             display: block;
             position: absolute;
-            top: 100px;
-            right: 800px;
+            top: 85px;
+            right: 650px;
         }
 
         .videogames, .brain, .stress{
-            width: 800px;
-            height: 250px;
+            width: 700px;
+            height: 200px;
             background-color: $white;
             display: flex;
             flex-direction: column;
@@ -245,15 +250,15 @@
            
 
             h2{
-                font-size: 45px;
+                font-size: 35px;
                 font-weight: 700;
-                padding: 25px 50px 20px;
+                padding: 20px 50px 20px;
                 font-family: $main-font;
             }
 
             p{
-                padding: 25px 50px 20px;
-                font-size: 25px;
+                padding: 10px 50px 20px;
+                font-size: 20px;
                 font-weight: 300;
                 line-height: 1.6;
                 font-family: $main-font;
@@ -275,18 +280,18 @@
         position: relative;
 
         .bluebox{
-            width: 1300px;
-            height: 520px;
+            width: 1150px;
+            height: 425px;
             background-color: $button-color-01;
             position: absolute;
             top: 300px;
-            right: 0px;
+            right: 50px;
             z-index: -1;
         }
 
         .textbox-2{
-            width: 550px;
-            height: 465px;
+            width: 470px;
+            height: 415px;
             background-color: $white;
             -webkit-box-shadow: -1px 2px 14px -2px #000000; 
             box-shadow: -1px 2px 14px -2px #000000;
@@ -298,8 +303,8 @@
             padding-left: 50px;
             padding-right: 40px;
             position: absolute;
-            top: 530px;
-            right: 700px;
+            top: 505px;
+            right: 665px;
             z-index: 3;
 
            
@@ -307,20 +312,21 @@
 
         img{
             margin-top: 50px;
-            width: 1050px;
-            height: 650px;
+            width: 900px;
+            height: 600px;
             z-index: 2;
+            margin-left: 100px;
         }
 
         h2{
-            font-size: 50px;
+            font-size: 40px;
             font-weight: 500;
             font-family: $main-font;
-            margin-top: 30px;
+            margin-top: 25px;
         }
 
         p{
-            font-size: 27px;
+            font-size: 22px;
             line-height: 1.6;
             font-weight: 300;
             font-family: $main-font;
@@ -330,17 +336,17 @@
 
         .blueBtn{
             
-            width: 220px;
-            height: 60px;
+            width: 170px;
+            height: 50px;
             border-style: solid;
             font-weight: 700;
-            padding: 15px 50px;
-            margin: 40px 0px;
+            padding: 15px 20px;
+            margin: 20px 0px;
             background-color: $button-color-01;
             color: $white;
             border-color: $white;
             transition: 0.3s ease;
-            font-size: 18px;
+            font-size: 15px;
             cursor: pointer;
             white-space: nowrap;
 
@@ -365,26 +371,26 @@
 
 
         h2{
-            font-size: 80px;
+            font-size: 60px;
             color: $white;
             font-weight: 900;
             font-family: $main-font;
-            margin-left: 400px;
-            padding-top: 130px;
+            margin-left: 350px;
+            padding-top: 85px;
         }
 
         .viewallBtn{
         border-style: solid;
         font-weight: 700;
-        padding: 15px 65px;
+        padding: 15px 35px;
         margin-top: 75px;
-        margin-left: 400px;
+        margin-left: 350px;
         background-color: transparent;
         color: $white;
         border-color: $white;
         transition: 0.3s ease;
-        border-width: 3px;
-        font-size: 18px;
+        border-width: 1px;
+        font-size: 15px;
         }
 
 
@@ -404,7 +410,7 @@
     .container-5{
         max-width: $container-size-lg;
         width: 100%;
-        height: 1350px;
+        height: 1050px;
         margin: 0 auto;
         position: relative;
 
@@ -416,14 +422,14 @@
         
         
         h2{
-            font-size: 50px;
+            font-size: 40px;
             font-weight: 500;
             font-family: $main-font;
 
         }
 
         p{
-            font-size: 25px;
+            font-size: 20px;
             font-weight: 300;
             font-family: $main-font;
             margin-top: 40px;
@@ -432,17 +438,17 @@
         }
 
         .readmoreBtn{
-            width: 220px;
-            height: 60px;
+            width: 170px;
+            height: 50px;
             border-style: solid;
             font-weight: 700;
-            padding: 15px 50px;
+            padding: 15px 30px;
             margin: 40px 0px;
             background-color: $button-color-01;
             color: $white;
             border-color: $white;
             transition: 0.3s ease;
-            font-size: 18px;
+            font-size: 15px;
             cursor: pointer;
             white-space: nowrap;
             font-family: $main-font;
@@ -455,58 +461,58 @@
         }
 
         .img-6{
-            width: 35vh;
-            height: 35vh;
+            width: 30vh;
+            height: 30vh;
             border-radius: 50%;
             background-size: cover;
             position: absolute;
-            top: 385px;
-            right: 900px;
+            top: 285px;
+            right: 880px;
         }
 
         .img-7{
-            width: 60vh;
-            height: 60vh;
+            width: 55vh;
+            height: 55vh;
             border-radius: 50%;
             background-size: cover;
             position: absolute;
-            top: 450px;
-            left: 40px;
+            top: 350px;
+            left: 120px;
 
         }
 
         .img-8{
-            width: 35vh;
-            height: 35vh;
+            width: 30vh;
+            height: 30vh;
             border-radius: 50%;
             background-size: cover;
             position: absolute;
-            top: 310px;
-            left: 810px;
+            top: 275px;
+            left: 775px;
 
         }
 
         .circle-3{
-            width: 260px;
-            height: 260px;
+            width: 230px;
+            height: 230px;
             border-radius: 50%;
             background-color: $button-color-01;
             position: absolute; 
-            top: 700px;
-            right: 350px;
+            top: 530px;
+            right: 400px;
         }
 
         .circle-4{
-            width: 200px;
-            height: 200px;
+            width: 175px;
+            height: 175px;
             background-color: $white;
             border-radius: 50%;
-            border-width: 35px;
+            border-width: 30px;
             border-style: solid;
             border-color: #e5bb8d;
             position: absolute;
-            top: 1000px;
-            left: 850px; 
+            top: 750px;
+            left: 810px; 
         }
 
     }
@@ -523,8 +529,8 @@
 
 
         .textbox-3{
-            width: 585px;
-            height: 555px;
+            width: 510px;
+            height: 450px;
             background-color: $white;
             -webkit-box-shadow: -1px 2px 14px -2px #000000; 
             box-shadow: -1px 2px 14px -2px #000000;
@@ -535,14 +541,14 @@
             padding-left: 50px;
             padding-right: 40px;
             position: absolute;
-            top: 85px;
-            left: 350px;
+            top: 140px;
+            left: 240px;
             z-index: 3;
             
         }
 
         h2{
-            font-size: 50px;
+            font-size: 35px;
             font-weight: 700;
             font-family: $main-font;
             padding-top: 30px;
@@ -550,24 +556,24 @@
         }
 
         p{
-            font-size: 26px;
+            font-size: 22px;
             font-weight: 100;
             line-height: 2.0;
             font-family: $main-font;
         }
 
         .contactusBtn{
-            width: 220px;
-            height: 60px;
+            width: 175px;
+            height: 50px;
             border-style: solid;
             font-weight: 700;
-            padding: 15px 50px;
+            padding: 15px 25px;
             margin: 20px 0px;
             background-color: $white;
             color: $paragraph-color-01;
             border-color: $paragraph-color-01;
             transition: 0.3s ease;
-            font-size: 18px;
+            font-size: 15px;
             cursor: pointer;
             white-space: nowrap;
             font-family: $main-font;
@@ -579,27 +585,254 @@
         }
 
         img{
-            width: 925px;
-            height: 600px;
+            width: 850px;
+            height: 550px;
             position: absolute;
             top: 325px;
-            right: 555px;
+            right: 345px;
             z-index: 2;
         }
 
         .orangeline{
-            width: 450px;
+            width: 355px;
             height: 1000px;
             background-color: #e5bb8d;
             position: absolute;
             top: 0px;
-            right: 800px;
+            right: 600px;
             z-index: 1;
         }
     }
 }
 
+
+.section-7{
+    .container-7{
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+
+
+        .left, .right{
+            width: 50%;
+        }
+
+        h2{
+            margin-top: 50px;
+            font-size: 30px;
+            font-family: $main-font;
+            color: #4d4d4d;
+
+        }
+
+        .input-field{
+            width: 550px;
+            height: 50px;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-style: none;
+            background-color: #f2f2f2;
+            flex-direction: column;
+            display: flex;
+            margin-bottom: 40px;
+
+        }
+
+        img{
+            width: 550px;
+            height: 650px;
+            margin-left: 300px;
+            margin-bottom: 30px;
+        }
+
+        .textarea{
+            width: 550px;
+            height: 155px;
+            padding: 10px;
+            border-style: none;
+            background-color: #f2f2f2;
+            resize: none;
+            margin-bottom: 30px;
+        }
+
+        .submitBtn{
+            padding: 15px 35px;
+            border-radius: 30px;
+            border-color:#1f1c1c;
+            margin-bottom: 10px;
+            background-color: $white;
+            font-family: $main-font;
+            font-size: 15px;
+        }
+
+        .submitBtn:hover{
+            background-color: $paragraph-color-01;
+            color: $white;
+        }
+
+        .fa-solid{
+            margin-left: 95px;
+            margin-top: 10px;
+            font-size: 30px;
+        }
+
+    }
+}
  
+
+footer{
+    background-color: #121212 ;
+    height: auto;
+    padding: 90px 140px;
+    
+    .footerContainer{
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            transition: 0.3 ease;
+        }
+
+        
+
+
+        .titleDiv{
+            color: $white;
+            vertical-align: baseline;
+    
+            & > h2{
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                font-family: $main-font;
+            }
+    
+            & > p{
+                color: #b1b1b1;
+                margin-bottom: 40px;
+            }
+    
+            & > .fa-brands{
+                cursor: pointer;
+                font-size: 20px;
+            }
+    
+            .fa-facebook-f{
+                height: 16px;
+                width: 16px;
+            }
+            .fa-twitter{
+                height: 16px;
+                width: 16px;
+            }
+            .fa-instagram{
+                height: 16px;
+                width: 16px;
+            }
+            .fa-google-plus-g{
+                height: 16px;
+                width: 16px;
+            }
+    
+            & > a{
+                background-color: $white;
+                color: $paragraph-color-01;
+                border-radius: 50%;
+                padding: 15px 16px;
+                margin-right: 10px;
+            }
+    
+            a:hover{
+                background-color: #121212;
+                color: $white;
+            }
+        }
+    
+        .usefulLinks{
+    
+            h2{
+                font-size: 30px;
+                font-family: $main-font;
+                font-weight: bold;
+                color: $white;
+                margin-bottom: 20px;
+            }
+    
+            .footerUL:not(:last-child){
+                margin-bottom: 10px;
+            }
+    
+           li{
+               color: #b1b1b1;
+               margin-bottom: 15px;
+               cursor: pointer;
+           }
+
+           li:hover{
+            color: #4d2d81;
+        }
+    
+        }
+
+        .privacyDiv{
+            h2{
+                font-size: 30px;
+                font-family: $main-font;
+                font-weight: bold;
+                color: $white;
+                margin-bottom: 20px;
+            }
+
+            .footerUL:not(:last-child){
+                margin-bottom: 10px;
+            }
+    
+           li{
+               color: #b1b1b1;
+               margin-bottom: 15px;
+               cursor: pointer;
+           }
+
+           li:hover{
+            color: #4d2d81;
+        }
+        }
+
+        .contactInfo{
+            .envelope{
+                display: flex;
+                margin-bottom: 20px;
+            }
+            .phone{
+                display: flex;
+                margin-bottom: 20px;
+            }
+            .location{
+                display: flex;
+                margin-bottom: 20px;
+            }
+
+            h2{
+                font-size: 30px;
+                font-family: $main-font;
+                font-weight: bold;
+                color: $white;
+                margin-bottom: 20px;
+            }
+
+            p{
+                color: #b1b1b1;
+                margin-left: 20px;
+                
+            }
+
+
+        }
+
+    }
+
+}
 
 
      
